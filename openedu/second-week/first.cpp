@@ -5,12 +5,6 @@
 using namespace std;
 
 
-int digit(int n, int p)//получение p-го байта
-{
-	return (n>>(8 * p) & 255);
-}
-
-
 int main() {
 
 	ifstream in;
