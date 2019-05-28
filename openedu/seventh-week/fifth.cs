@@ -6,11 +6,6 @@ using System.Text;
 
 namespace ItmoAlgos
 {
-    public struct ModificationResult
-    {
-        public bool Modified { get; set; }
-        public int HeightDelta { get; set; }
-    }
 
     public sealed class Node<T> where T : IComparable<T>
     {
